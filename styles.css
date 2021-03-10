@@ -33,19 +33,40 @@ body header span {
   font-size: 1.25em;
   font-weight: 600;
 }
+@media (max-width: 358px) {
+  body header h1 {
+    font-size: 1.75em;
+  }
+  body header span {
+    font-size: 1em;
+  }
+}
 body .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 90vw;
   min-width: 290px;
   border: 2px solid black;
-  height: 40vh;
+  height: 50vh;
   font-family: "Bodoni Moda", serif;
+  overflow: scroll;
+}
+body .container img {
+  margin: 0 auto;
+  width: auto;
+  height: 100%;
+}
+body .container p {
+  margin: 0.5vh;
 }
 body .buttons {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   width: 90vw;
-  height: 20vh;
+  height: 15vh;
   min-width: 290px;
   border: 2px solid black;
 }
