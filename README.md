@@ -1,0 +1,1 @@
+A simple app that generates name days for yesterday, today, or tomorrow, made with HTML, Sass, JavaScript, and the international nameday API.
